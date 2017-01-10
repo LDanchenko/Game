@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First fragment"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:id="@+id/button"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="CCY"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:layout_below="@+id/button"
+    android:id="@+id/ccy"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ccy"
+        android:id="@+id/edit1"
+        android:text="ВАЛЮТА"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BCCY"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/ccy"
+        android:id="@+id/bccy"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit1"
+        android:layout_toRightOf="@+id/bccy"
+        android:id="@+id/edit2"
+        android:text="ГРИВНА"/>
+
+
+</RelativeLayout>
